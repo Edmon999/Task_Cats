@@ -1,0 +1,32 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.category-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.category-link:hover {
+  background-color: #ddd;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    // width: 200px;
+  }
+}
